@@ -1,0 +1,39 @@
+body {
+  background: #aaa;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+#p5_loading {
+  color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#sketch-container {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+canvas#defaultCanvas0 {
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  image-rendering: pixelated;
+}
+
+#audio-button {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 10;
+  bottom: 10;
+  display: none;
+  /* we don't show unless we have a background image */
+}

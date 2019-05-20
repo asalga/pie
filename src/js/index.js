@@ -11,6 +11,7 @@ window.setup = function() {
 };
 
 window.draw = function() {
+  background(100);
   // if (!assets.isDone()) { return; }
 
   // update(0.016);
